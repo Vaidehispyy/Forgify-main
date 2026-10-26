@@ -1,0 +1,657 @@
+{
+  "benchmark_name": "Forgify Identity Forensics Benchmark",
+  "timestamp": "2026-10-26T16:49:28Z",
+  "duration_sec": 27.95,
+  "sample_count": 52,
+  "genuine_count": 45,
+  "manipulated_count": 7,
+  "confusion_matrix": {
+    "tp": 7,
+    "tn": 45,
+    "fp": 0,
+    "fn": 0
+  },
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "false_positive_rate": 0.0,
+  "false_negative_rate": 0.0,
+  "roc_auc": 1.0,
+  "per_document_type": {
+    "Aadhaar": {
+      "total": 22,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "tp": 2,
+        "tn": 20,
+        "fp": 0,
+        "fn": 0
+      },
+      "fpr": 0.0,
+      "fnr": 0.0
+    },
+    "General": {
+      "total": 1,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "tp": 1,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "fpr": 0.0,
+      "fnr": 0.0
+    },
+    "Invoice": {
+      "total": 1,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "tp": 1,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "fpr": 0.0,
+      "fnr": 0.0
+    },
+    "Marksheet": {
+      "total": 1,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "tp": 1,
+        "tn": 0,
+        "fp": 0,
+        "fn": 0
+      },
+      "fpr": 0.0,
+      "fnr": 0.0
+    },
+    "PAN": {
+      "total": 27,
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "tp": 2,
+        "tn": 25,
+        "fp": 0,
+        "fn": 0
+      },
+      "fpr": 0.0,
+      "fnr": 0.0
+    }
+  },
+  "cases": [
+    {
+      "case_id": "genuine_pan_original",
+      "document_type": "PAN",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 17,
+      "aigc_score": 0.0282,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_jpeg_q75",
+      "document_type": "PAN",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0344,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_jpeg_q60",
+      "document_type": "PAN",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 26,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_resized_75",
+      "document_type": "PAN",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_bright_115",
+      "document_type": "PAN",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.079,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera_original",
+      "document_type": "PAN",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 17,
+      "aigc_score": 0.0602,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera_jpeg_q75",
+      "document_type": "PAN",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 16,
+      "aigc_score": 0.0602,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera_jpeg_q60",
+      "document_type": "PAN",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 25,
+      "aigc_score": 0.0562,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera_resized_75",
+      "document_type": "PAN",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 17,
+      "aigc_score": 0.0603,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera_bright_115",
+      "document_type": "PAN",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 22,
+      "aigc_score": 0.0636,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_aadhaar_original",
+      "document_type": "Aadhaar",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 16,
+      "aigc_score": 0.0383,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_aadhaar_jpeg_q75",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0404,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_aadhaar_jpeg_q60",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 27,
+      "aigc_score": 0.0369,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_aadhaar_resized_75",
+      "document_type": "Aadhaar",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0336,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_aadhaar_bright_115",
+      "document_type": "Aadhaar",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 19,
+      "aigc_score": 0.0358,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_eaadhaar_original",
+      "document_type": "Aadhaar",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 18,
+      "aigc_score": 0.0791,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_eaadhaar_jpeg_q75",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0928,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_eaadhaar_jpeg_q60",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 26,
+      "aigc_score": 0.0761,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_eaadhaar_resized_75",
+      "document_type": "Aadhaar",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 28,
+      "aigc_score": 0.2265,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_eaadhaar_bright_115",
+      "document_type": "Aadhaar",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 25,
+      "aigc_score": 0.3424,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera2_original",
+      "document_type": "PAN",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 15,
+      "aigc_score": 0.0733,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera2_jpeg_q75",
+      "document_type": "PAN",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 24,
+      "aigc_score": 0.0743,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera2_jpeg_q60",
+      "document_type": "PAN",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 28,
+      "aigc_score": 0.0734,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera2_resized_75",
+      "document_type": "PAN",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 13,
+      "aigc_score": 0.0597,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "genuine_pan_camera2_bright_115",
+      "document_type": "PAN",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 22,
+      "aigc_score": 0.0899,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_fixture_original",
+      "document_type": "Aadhaar",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 16,
+      "aigc_score": 0.0383,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_fixture_jpeg_q75",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0404,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_fixture_jpeg_q60",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 27,
+      "aigc_score": 0.0369,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_fixture_resized_75",
+      "document_type": "Aadhaar",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0336,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_fixture_bright_115",
+      "document_type": "Aadhaar",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 19,
+      "aigc_score": 0.0358,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_template_original",
+      "document_type": "Aadhaar",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 16,
+      "aigc_score": 0.0383,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_template_jpeg_q75",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0404,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_template_jpeg_q60",
+      "document_type": "Aadhaar",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 27,
+      "aigc_score": 0.0369,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_template_resized_75",
+      "document_type": "Aadhaar",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0336,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_aadhaar_template_bright_115",
+      "document_type": "Aadhaar",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 19,
+      "aigc_score": 0.0358,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_template_original",
+      "document_type": "PAN",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 17,
+      "aigc_score": 0.0282,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_template_jpeg_q75",
+      "document_type": "PAN",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0344,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_template_jpeg_q60",
+      "document_type": "PAN",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 26,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_template_resized_75",
+      "document_type": "PAN",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_template_bright_115",
+      "document_type": "PAN",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.079,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_fixture_original",
+      "document_type": "PAN",
+      "condition": "original",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 17,
+      "aigc_score": 0.0282,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_fixture_jpeg_q75",
+      "document_type": "PAN",
+      "condition": "jpeg_q75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.0344,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_fixture_jpeg_q60",
+      "document_type": "PAN",
+      "condition": "jpeg_q60",
+      "ground_truth": "genuine",
+      "predicted_verdict": "low-risk",
+      "risk_score": 26,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_fixture_resized_75",
+      "document_type": "PAN",
+      "condition": "resized_75",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 14,
+      "aigc_score": 0.0267,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "clean_pan_fixture_bright_115",
+      "document_type": "PAN",
+      "condition": "bright_115",
+      "ground_truth": "genuine",
+      "predicted_verdict": "authentic",
+      "risk_score": 21,
+      "aigc_score": 0.079,
+      "correct": true,
+      "false_positive": false
+    },
+    {
+      "case_id": "tampered_aadhaar_dob",
+      "document_type": "Aadhaar",
+      "condition": "manipulated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 72,
+      "aigc_score": 0.0385,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "tampered_pan_syntax_father",
+      "document_type": "PAN",
+      "condition": "manipulated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 72,
+      "aigc_score": 0.0317,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "tampered_invoice_arithmetic",
+      "document_type": "Invoice",
+      "condition": "manipulated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 74,
+      "aigc_score": 0.0308,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "tampered_marksheet_arithmetic",
+      "document_type": "Marksheet",
+      "condition": "manipulated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 74,
+      "aigc_score": 0.02,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "ai_generated_aadhaar_diffusion",
+      "document_type": "Aadhaar",
+      "condition": "ai_generated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 72,
+      "aigc_score": 0.723,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "ai_generated_gemini_exhibit",
+      "document_type": "General",
+      "condition": "ai_generated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "likely-forged",
+      "risk_score": 75,
+      "aigc_score": 0.7456,
+      "correct": true,
+      "false_negative": false
+    },
+    {
+      "case_id": "synth_pan_decoder_artifacts",
+      "document_type": "PAN",
+      "condition": "ai_generated",
+      "ground_truth": "manipulated",
+      "predicted_verdict": "forged",
+      "risk_score": 98,
+      "aigc_score": 0.98,
+      "correct": true,
+      "false_negative": false
+    }
+  ]
+}

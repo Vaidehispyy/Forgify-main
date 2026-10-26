@@ -27,7 +27,7 @@ FIELD_LABELS: dict[str, tuple[str, ...]] = {
     "validity": ("valid upto", "valid up to", "validity", "expires", "expiry"),
     "institution_name": ("institution", "university", "college", "school"),
     "father_name": ("father's name", "father name", "father", "fathers name", "parent name", "fathershlame"),
-    "pan_number": ("permanent account number", "pan no", "pan number"),
+    "pan_number": ("permanent account number card", "permanent account number", "pan no", "pan number", "pan card"),
     "aadhaar_number": ("distinguished permanent number", "aadhaar", "aadhaar no", "aadhaar number", "uid"),
     "gender": ("gender", "sex"),
 }
@@ -161,6 +161,10 @@ def extract_fields(words: list[dict], shape) -> list[dict]:
         ]
         cand_words = inline_words if inline_words else below_words
         cand_words = _sort_reading_order(cand_words)
+        if field_type == "pan_number" and inline_words:
+            first_w = _norm(inline_words[0].get("text", ""))
+            if first_w in {"card", "patra", "cardcard", "card card"} and below_words:
+                cand_words = _sort_reading_order(below_words)
         if not cand_words:
             continue
         first_line_top = cand_words[0]["top"]
@@ -210,29 +214,77 @@ def _validate_identity_document(fields: list[dict], words: list[dict], shape: tu
     upper_text = full_text.upper()
 
     # 1. PAN card validation
-    is_pan = ("PERMANENT ACCOUNT" in upper_text or "INCOME TAX" in upper_text or "PAN CARD" in upper_text)
+    is_pan = ("PERMANENT ACCOUNT" in upper_text or "INCOME TAX" in upper_text or "PAN CARD" in upper_text or ("GOVT" in upper_text and "INDIA" in upper_text and "ACCOUNT" in upper_text))
     if is_pan:
         pan_field = field_map.get("pan_number")
         pan_raw = pan_field.get("rawText", "") if pan_field else ""
-        pan_candidates = [re.sub(r"[^A-Z0-9]", "", w["text"].upper()) for w in words if len(re.sub(r"[^A-Z0-9]", "", w["text"])) >= 7]
-        valid_pan = any(re.match(r"^[A-Z]{3,5}[0-9]{4}[A-Z]$", c) for c in pan_candidates)
+
+        # Build candidate tokens: single tokens and concatenated adjacent pairs (for split OCR tokens)
+        raw_candidates: list[str] = []
+        for i, w in enumerate(words):
+            clean_w = re.sub(r"[^A-Z0-9]", "", str(w.get("text", "")).upper())
+            if len(clean_w) >= 6:
+                raw_candidates.append(clean_w)
+            if i + 1 < len(words):
+                clean_pair = re.sub(r"[^A-Z0-9]", "", (str(w.get("text", "")) + str(words[i + 1].get("text", ""))).upper())
+                if 8 <= len(clean_pair) <= 12:
+                    raw_candidates.append(clean_pair)
+
+        def _is_valid_pan_str(s: str) -> bool:
+            if re.match(r"^[A-Z]{3,5}[0-9]{4}[A-Z]$", s):
+                return True
+            # Check OCR substitutions if length 10: 5 letters, 4 digits, 1 letter
+            if len(s) == 10:
+                prefix = s[:5]
+                digits = s[5:9].replace("O", "0").replace("I", "1").replace("Z", "2").replace("S", "5").replace("B", "8")
+                suffix = s[9]
+                if re.match(r"^[A-Z]{5}$", prefix) and digits.isdigit() and suffix.isalpha():
+                    return True
+            return False
+
+        valid_pan_cand = next((c for c in raw_candidates if _is_valid_pan_str(c)), None)
+        valid_pan = valid_pan_cand is not None
+
         if pan_field:
             cleaned = re.sub(r"[^A-Z0-9]", "", pan_raw.upper())
-            if not re.match(r"^[A-Z]{3,5}[0-9]{4}[A-Z]$", cleaned):
-                findings.append({
-                    "fieldType": "pan_number",
-                    "type": "PAN-SYNTAX",
-                    "comparisonState": "INVALID_FORMAT",
-                    "referenceText": "Valid Indian PAN format [A-Z]{3,5}[0-9]{4}[A-Z]",
-                    "evidenceText": pan_raw,
-                    "bbox": pan_field.get("bbox", {"x": 0.24, "y": 0.50, "width": 0.40, "height": 0.08}),
-                    "confidence": 0.88,
-                    "evidence": [f"Permanent Account Number '{pan_raw}' violates standard PAN syntax."],
-                })
+            # If pan_field captured header noise ('Card', etc.) or noisy text but a valid candidate is present, adopt it
+            if not _is_valid_pan_str(cleaned) and valid_pan_cand:
+                pan_raw = valid_pan_cand
+                pan_field["rawText"] = valid_pan_cand
+                pan_field["text"] = valid_pan_cand
+                pan_field["normalizedText"] = _norm(valid_pan_cand)
+                cleaned = valid_pan_cand
+
+            if not _is_valid_pan_str(cleaned):
+                ocr_confs = [w.get("conf", 0) for w in words if w.get("conf", -1) >= 0]
+                avg_conf = float(np.mean(ocr_confs)) if ocr_confs else 0.0
+                if len(cleaned) >= 7 and avg_conf >= 55.0 and cleaned not in {"CARD", "PATRA", "NUMBER"}:
+                    findings.append({
+                        "fieldType": "pan_number",
+                        "type": "PAN-SYNTAX",
+                        "comparisonState": "INVALID_FORMAT",
+                        "referenceText": "Valid Indian PAN format [A-Z]{3,5}[0-9]{4}[A-Z]",
+                        "evidenceText": pan_raw,
+                        "bbox": pan_field.get("bbox", {"x": 0.24, "y": 0.50, "width": 0.40, "height": 0.08}),
+                        "confidence": 0.88,
+                        "evidence": [f"Permanent Account Number '{pan_raw}' violates standard PAN syntax."],
+                    })
+                else:
+                    findings.append({
+                        "fieldType": "pan_number",
+                        "type": "OCR-UNRELIABLE",
+                        "comparisonState": "LOW_CONFIDENCE_SCAN",
+                        "referenceText": "Standard Indian PAN [A-Z]{3,5}[0-9]{4}[A-Z]",
+                        "evidenceText": pan_raw or "Unreadable PAN string",
+                        "bbox": pan_field.get("bbox", {"x": 0.24, "y": 0.50, "width": 0.40, "height": 0.08}),
+                        "confidence": 0.40,
+                        "evidence": ["OCR resolution or contrast was insufficient for reliable PAN verification."],
+                    })
         elif not valid_pan:
             ocr_confs = [w.get("conf", 0) for w in words if w.get("conf", -1) >= 0]
             avg_conf = float(np.mean(ocr_confs)) if ocr_confs else 0.0
-            if len(words) >= 12 and (avg_conf >= 35.0 or len(words) >= 20):
+            has_readable_identity = ("name" in field_map or "father_name" in field_map or len(words) >= 35)
+            if has_readable_identity and len(words) >= 20 and avg_conf >= 40.0:
                 findings.append({
                     "fieldType": "pan_number",
                     "type": "PAN-SYNTAX",
@@ -251,7 +303,7 @@ def _validate_identity_document(fields: list[dict], words: list[dict], shape: tu
                     "referenceText": "Standard Indian PAN [A-Z]{3,5}[0-9]{4}[A-Z]",
                     "evidenceText": "OCR resolution insufficient to parse PAN number",
                     "bbox": {"x": 0.24, "y": 0.50, "width": 0.40, "height": 0.08},
-                    "confidence": 0.45,
+                    "confidence": 0.40,
                     "evidence": ["OCR confidence or word count was insufficient for reliable PAN verification."],
                 })
 
@@ -283,7 +335,7 @@ def _validate_identity_document(fields: list[dict], words: list[dict], shape: tu
                     })
 
     # 2. Aadhaar / Identity card validation
-    is_aadhaar = ("UNIQUE IDENTIFICATION" in upper_text or "AADHAAR" in upper_text or "E-KYC" in upper_text)
+    is_aadhaar = ("UNIQUE IDENTIFICATION" in upper_text or "AADHAAR" in upper_text or "E-KYC" in upper_text or ("GOVERNMENT" in upper_text and "INDIA" in upper_text and "UIDAI" in upper_text))
     if is_aadhaar:
         dob_field = field_map.get("date_of_birth")
         if dob_field:
@@ -296,16 +348,30 @@ def _validate_identity_document(fields: list[dict], words: list[dict], shape: tu
                 or (bool(re.search(r"\b(19\d\d|20\d\d)\b", dob_text)) and sum(c.isdigit() for c in dob_text) == 4)
             )
             if not has_valid_date:
-                findings.append({
-                    "fieldType": "date_of_birth",
-                    "type": "ID-MISMATCH",
-                    "comparisonState": "INVALID_FORMAT",
-                    "referenceText": "Valid Date of Birth (DD/MM/YYYY)",
-                    "evidenceText": dob_text,
-                    "bbox": dob_field.get("bbox", {"x": 0.25, "y": 0.35, "width": 0.30, "height": 0.08}),
-                    "confidence": 0.85,
-                    "evidence": [f"Date of birth field contains invalid or corrupted date string '{dob_text}'."],
-                })
+                ocr_confs = [w.get("conf", 0) for w in words if w.get("conf", -1) >= 0]
+                avg_conf = float(np.mean(ocr_confs)) if ocr_confs else 0.0
+                if len(words) >= 12 and (avg_conf >= 35.0 or len(words) >= 20):
+                    findings.append({
+                        "fieldType": "date_of_birth",
+                        "type": "ID-MISMATCH",
+                        "comparisonState": "INVALID_FORMAT",
+                        "referenceText": "Valid Date of Birth (DD/MM/YYYY)",
+                        "evidenceText": dob_text,
+                        "bbox": dob_field.get("bbox", {"x": 0.25, "y": 0.35, "width": 0.30, "height": 0.08}),
+                        "confidence": 0.85,
+                        "evidence": [f"Date of birth field contains invalid or corrupted date string '{dob_text}'."],
+                    })
+                else:
+                    findings.append({
+                        "fieldType": "date_of_birth",
+                        "type": "OCR-UNRELIABLE",
+                        "comparisonState": "LOW_CONFIDENCE_SCAN",
+                        "referenceText": "Valid Date of Birth (DD/MM/YYYY)",
+                        "evidenceText": dob_text or "Unreadable date string",
+                        "bbox": dob_field.get("bbox", {"x": 0.25, "y": 0.35, "width": 0.30, "height": 0.08}),
+                        "confidence": 0.40,
+                        "evidence": ["Date of birth could not be conclusively verified from available OCR resolution."],
+                    })
 
     return findings
 

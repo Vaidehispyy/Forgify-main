@@ -1,22 +1,95 @@
 {
-  "samples_total": 172,
-  "samples_real": 99,
-  "samples_ai": 73,
-  "accuracy": 0.9302,
-  "precision": 0.8947,
-  "recall": 0.9444,
-  "f1": 0.9189,
-  "roc_auc": 0.9733,
-  "confusion_matrix": [
-    [
-      23,
-      2
-    ],
-    [
-      1,
-      17
-    ]
-  ],
+  "samples_total": 344,
+  "samples_real": 228,
+  "samples_ai": 116,
+  "document_groups": 40,
+  "train_samples": 254,
+  "test_samples": 90,
+  "accuracy": 0.8667,
+  "precision": 1.0,
+  "recall": 0.6,
+  "f1": 0.75,
+  "false_positive_rate": 0.0,
+  "false_negative_rate": 0.4,
+  "roc_auc": 0.9328,
+  "confusion_matrix": {
+    "tn": 60,
+    "fp": 0,
+    "fn": 12,
+    "tp": 18
+  },
+  "category_metrics": {
+    "certificate": {
+      "samples": 9,
+      "accuracy": 0.6667,
+      "confusion_matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "general_document": {
+      "samples": 9,
+      "accuracy": 0.6667,
+      "confusion_matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "identity_card": {
+      "samples": 54,
+      "accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          36,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    },
+    "invoice_receipt": {
+      "samples": 9,
+      "accuracy": 0.6667,
+      "confusion_matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "pan": {
+      "samples": 9,
+      "accuracy": 0.6667,
+      "confusion_matrix": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    }
+  },
   "feature_names": [
     "spectral_peak",
     "rolloff",

@@ -94,7 +94,8 @@ def fuse(layer_results: list[dict], findings: list[dict]) -> dict:
     # 2. Reference comparison field tampering, barcode mismatch, or identity format violation
     ref_tamper = any(
         f.get("code") in {"REF-FIELD", "OCR_FIELD_MISMATCH", "QR_BARCODE_MISMATCH", "PAN-SYNTAX", "ID-MISMATCH"}
-        and float(f.get("confidence", 0)) >= 0.70
+        and float(f.get("confidence", 0)) >= 0.75
+        and f.get("severity") in {"high", "critical"}
         for f in findings
     )
     if ref_tamper:

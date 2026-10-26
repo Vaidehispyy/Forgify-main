@@ -830,18 +830,23 @@ class AigcModule(Module):
                 if prov_match:
                     score = float(max(0.92, raw_score))
                     confidence = 0.96
-                elif raw_score >= 0.48:
-                    score = float(np.clip(0.55 + (raw_score - 0.48) * 0.85, 0.55, 0.98))
-                    if peak >= 4.8 or (feat_dict.get("corr_rb", 1.0) < 0.75 and rb_diff > 30):
-                        score = float(min(0.98, score + 0.15))
-                    confidence = float(np.clip(0.75 + (raw_score - 0.48) * 0.40, 0.75, 0.96))
-                elif raw_score <= 0.35:
-                    score = float(np.clip(raw_score * 0.40, 0.02, 0.15))
-                    confidence = float(np.clip(0.75 + (0.35 - raw_score) * 0.50, 0.75, 0.95))
+                elif raw_score >= 0.55:
+                    score = float(np.clip(0.68 + (raw_score - 0.55) * 0.70, 0.68, 0.98))
+                    if peak >= 4.5 or (feat_dict.get("corr_rb", 1.0) < 0.75 and rb_diff > 30):
+                        score = float(min(0.98, score + 0.12))
+                    confidence = float(np.clip(0.80 + (raw_score - 0.55) * 0.40, 0.80, 0.96))
+                elif raw_score <= 0.40:
+                    score = float(np.clip(raw_score * 0.30, 0.02, 0.12))
+                    confidence = float(np.clip(0.75 + (0.40 - raw_score) * 0.50, 0.75, 0.95))
                 else:
-                    # Intermediate/uncertain band [0.35, 0.48)
-                    score = float(np.clip(0.15 + (raw_score - 0.35) * (0.30 / 0.13), 0.15, 0.45))
-                    confidence = 0.65
+                    # Intermediate band [0.40, 0.55) — require physical spectral/chromatic corroboration for alert
+                    has_corroboration = (peak >= 4.5 or (feat_dict.get("corr_rb", 1.0) < 0.75 and rb_diff > 35))
+                    if has_corroboration:
+                        score = float(np.clip(0.68 + (raw_score - 0.40) * 0.60, 0.68, 0.90))
+                        confidence = 0.85
+                    else:
+                        score = float(np.clip(0.12 + (raw_score - 0.40) * (0.28 / 0.15), 0.12, 0.40))
+                        confidence = 0.65
 
                 findings = []
                 if score >= 0.5:

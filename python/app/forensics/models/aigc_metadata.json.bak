@@ -1,0 +1,35 @@
+{
+  "samples_total": 172,
+  "samples_real": 99,
+  "samples_ai": 73,
+  "accuracy": 0.9302,
+  "precision": 0.8947,
+  "recall": 0.9444,
+  "f1": 0.9189,
+  "roc_auc": 0.9733,
+  "confusion_matrix": [
+    [
+      23,
+      2
+    ],
+    [
+      1,
+      17
+    ]
+  ],
+  "feature_names": [
+    "spectral_peak",
+    "rolloff",
+    "high_freq_energy",
+    "noise_variance",
+    "rg_diff",
+    "rb_diff",
+    "gb_diff",
+    "autocorr_lag2",
+    "autocorr_lag4",
+    "pseudo_text_ratio",
+    "corr_rb",
+    "corr_rg",
+    "lap_kurtosis"
+  ]
+}

@@ -1,0 +1,3098 @@
+[
+  {
+    "filename": "eaadhaar_niranjan_genuine.jpg",
+    "path": "real/eaadhaar_niranjan_genuine.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "pristine"
+  },
+  {
+    "filename": "genuine_bill_coffee.jpg",
+    "path": "real/genuine_bill_coffee.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "pristine"
+  },
+  {
+    "filename": "genuine_certificate_sample.jpg",
+    "path": "real/genuine_certificate_sample.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "pristine"
+  },
+  {
+    "filename": "genuine_invoice_kristiania.jpg",
+    "path": "real/genuine_invoice_kristiania.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "pristine"
+  },
+  {
+    "filename": "genuine_mobile_photo.png",
+    "path": "real/genuine_mobile_photo.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "pristine"
+  },
+  {
+    "filename": "genuine_receipt_swiss.jpg",
+    "path": "real/genuine_receipt_swiss.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "pristine"
+  },
+  {
+    "filename": "pan_roshani_genuine.jpg",
+    "path": "real/pan_roshani_genuine.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "pristine"
+  },
+  {
+    "filename": "pan_yash_genuine.jpg",
+    "path": "real/pan_yash_genuine.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "pristine"
+  },
+  {
+    "filename": "student_id_rane_genuine.jpg",
+    "path": "real/student_id_rane_genuine.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "workspace_aadhaar_clean.jpg",
+    "path": "real/workspace_aadhaar_clean.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "pristine"
+  },
+  {
+    "filename": "workspace_invoice_clean.jpg",
+    "path": "real/workspace_invoice_clean.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "pristine"
+  },
+  {
+    "filename": "workspace_marksheet_clean.jpg",
+    "path": "real/workspace_marksheet_clean.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "pristine"
+  },
+  {
+    "filename": "workspace_pan_clean.jpg",
+    "path": "real/workspace_pan_clean.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-000.png",
+    "path": "real/ID_CARD-000.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-001.png",
+    "path": "real/ID_CARD-001.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-002.png",
+    "path": "real/ID_CARD-002.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-003.png",
+    "path": "real/ID_CARD-003.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-004.png",
+    "path": "real/ID_CARD-004.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-005.png",
+    "path": "real/ID_CARD-005.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-006.png",
+    "path": "real/ID_CARD-006.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-007.png",
+    "path": "real/ID_CARD-007.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-008.png",
+    "path": "real/ID_CARD-008.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-009.png",
+    "path": "real/ID_CARD-009.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-010.png",
+    "path": "real/ID_CARD-010.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-011.png",
+    "path": "real/ID_CARD-011.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-012.png",
+    "path": "real/ID_CARD-012.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-013.png",
+    "path": "real/ID_CARD-013.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-014.png",
+    "path": "real/ID_CARD-014.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-015.png",
+    "path": "real/ID_CARD-015.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-016.png",
+    "path": "real/ID_CARD-016.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-017.png",
+    "path": "real/ID_CARD-017.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-018.png",
+    "path": "real/ID_CARD-018.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "ID_CARD-019.png",
+    "path": "real/ID_CARD-019.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "IDP-000.png",
+    "path": "real/IDP-000.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "IDP-001.png",
+    "path": "real/IDP-001.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "IDP-002.png",
+    "path": "real/IDP-002.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "IDP-003.png",
+    "path": "real/IDP-003.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "IDP-004.png",
+    "path": "real/IDP-004.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "pristine"
+  },
+  {
+    "filename": "eaadhaar_niranjan_genuine_resized_75.png",
+    "path": "real/eaadhaar_niranjan_genuine_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "eaadhaar_niranjan_genuine_q65.jpg",
+    "path": "real/eaadhaar_niranjan_genuine_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "eaadhaar_niranjan_genuine_q80.jpg",
+    "path": "real/eaadhaar_niranjan_genuine_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "eaadhaar_niranjan_genuine_contrast_low.jpg",
+    "path": "real/eaadhaar_niranjan_genuine_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "eaadhaar_niranjan_genuine_crop.png",
+    "path": "real/eaadhaar_niranjan_genuine_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "crop"
+  },
+  {
+    "filename": "genuine_bill_coffee_resized_75.png",
+    "path": "real/genuine_bill_coffee_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "genuine_bill_coffee_q65.jpg",
+    "path": "real/genuine_bill_coffee_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "genuine_bill_coffee_q80.jpg",
+    "path": "real/genuine_bill_coffee_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "genuine_bill_coffee_contrast_low.jpg",
+    "path": "real/genuine_bill_coffee_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "genuine_bill_coffee_crop.png",
+    "path": "real/genuine_bill_coffee_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "crop"
+  },
+  {
+    "filename": "genuine_certificate_sample_resized_75.png",
+    "path": "real/genuine_certificate_sample_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "genuine_certificate_sample_q65.jpg",
+    "path": "real/genuine_certificate_sample_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "genuine_certificate_sample_q80.jpg",
+    "path": "real/genuine_certificate_sample_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "genuine_certificate_sample_contrast_low.jpg",
+    "path": "real/genuine_certificate_sample_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "genuine_certificate_sample_crop.png",
+    "path": "real/genuine_certificate_sample_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "crop"
+  },
+  {
+    "filename": "genuine_invoice_kristiania_resized_75.png",
+    "path": "real/genuine_invoice_kristiania_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "genuine_invoice_kristiania_q65.jpg",
+    "path": "real/genuine_invoice_kristiania_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "genuine_invoice_kristiania_q80.jpg",
+    "path": "real/genuine_invoice_kristiania_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "genuine_invoice_kristiania_contrast_low.jpg",
+    "path": "real/genuine_invoice_kristiania_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "genuine_invoice_kristiania_crop.png",
+    "path": "real/genuine_invoice_kristiania_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "crop"
+  },
+  {
+    "filename": "genuine_mobile_photo_resized_75.png",
+    "path": "real/genuine_mobile_photo_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "genuine_mobile_photo_q65.jpg",
+    "path": "real/genuine_mobile_photo_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "genuine_mobile_photo_q80.jpg",
+    "path": "real/genuine_mobile_photo_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "genuine_mobile_photo_contrast_low.jpg",
+    "path": "real/genuine_mobile_photo_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "genuine_mobile_photo_crop.png",
+    "path": "real/genuine_mobile_photo_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "crop"
+  },
+  {
+    "filename": "genuine_receipt_swiss_resized_75.png",
+    "path": "real/genuine_receipt_swiss_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "genuine_receipt_swiss_q65.jpg",
+    "path": "real/genuine_receipt_swiss_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "genuine_receipt_swiss_q80.jpg",
+    "path": "real/genuine_receipt_swiss_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "genuine_receipt_swiss_contrast_low.jpg",
+    "path": "real/genuine_receipt_swiss_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "genuine_receipt_swiss_crop.png",
+    "path": "real/genuine_receipt_swiss_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "crop"
+  },
+  {
+    "filename": "pan_roshani_genuine_resized_75.png",
+    "path": "real/pan_roshani_genuine_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "pan_roshani_genuine_q65.jpg",
+    "path": "real/pan_roshani_genuine_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "pan_roshani_genuine_q80.jpg",
+    "path": "real/pan_roshani_genuine_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "pan_roshani_genuine_contrast_low.jpg",
+    "path": "real/pan_roshani_genuine_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "pan_roshani_genuine_crop.png",
+    "path": "real/pan_roshani_genuine_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "crop"
+  },
+  {
+    "filename": "pan_yash_genuine_resized_75.png",
+    "path": "real/pan_yash_genuine_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "pan_yash_genuine_q65.jpg",
+    "path": "real/pan_yash_genuine_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "pan_yash_genuine_q80.jpg",
+    "path": "real/pan_yash_genuine_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "pan_yash_genuine_contrast_low.jpg",
+    "path": "real/pan_yash_genuine_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "pan_yash_genuine_crop.png",
+    "path": "real/pan_yash_genuine_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "crop"
+  },
+  {
+    "filename": "student_id_rane_genuine_resized_75.png",
+    "path": "real/student_id_rane_genuine_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "student_id_rane_genuine_q65.jpg",
+    "path": "real/student_id_rane_genuine_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "student_id_rane_genuine_q80.jpg",
+    "path": "real/student_id_rane_genuine_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "student_id_rane_genuine_contrast_low.jpg",
+    "path": "real/student_id_rane_genuine_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "student_id_rane_genuine_crop.png",
+    "path": "real/student_id_rane_genuine_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "workspace_aadhaar_clean_resized_75.png",
+    "path": "real/workspace_aadhaar_clean_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "workspace_aadhaar_clean_q65.jpg",
+    "path": "real/workspace_aadhaar_clean_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "workspace_aadhaar_clean_q80.jpg",
+    "path": "real/workspace_aadhaar_clean_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "workspace_aadhaar_clean_contrast_low.jpg",
+    "path": "real/workspace_aadhaar_clean_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "workspace_aadhaar_clean_crop.png",
+    "path": "real/workspace_aadhaar_clean_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "crop"
+  },
+  {
+    "filename": "workspace_invoice_clean_resized_75.png",
+    "path": "real/workspace_invoice_clean_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "workspace_invoice_clean_q65.jpg",
+    "path": "real/workspace_invoice_clean_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "workspace_invoice_clean_q80.jpg",
+    "path": "real/workspace_invoice_clean_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "workspace_invoice_clean_contrast_low.jpg",
+    "path": "real/workspace_invoice_clean_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "workspace_invoice_clean_crop.png",
+    "path": "real/workspace_invoice_clean_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "crop"
+  },
+  {
+    "filename": "workspace_marksheet_clean_resized_75.png",
+    "path": "real/workspace_marksheet_clean_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "workspace_marksheet_clean_q65.jpg",
+    "path": "real/workspace_marksheet_clean_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "workspace_marksheet_clean_q80.jpg",
+    "path": "real/workspace_marksheet_clean_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "workspace_marksheet_clean_contrast_low.jpg",
+    "path": "real/workspace_marksheet_clean_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "workspace_marksheet_clean_crop.png",
+    "path": "real/workspace_marksheet_clean_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "crop"
+  },
+  {
+    "filename": "workspace_pan_clean_resized_75.png",
+    "path": "real/workspace_pan_clean_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "workspace_pan_clean_q65.jpg",
+    "path": "real/workspace_pan_clean_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "workspace_pan_clean_q80.jpg",
+    "path": "real/workspace_pan_clean_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "workspace_pan_clean_contrast_low.jpg",
+    "path": "real/workspace_pan_clean_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "workspace_pan_clean_crop.png",
+    "path": "real/workspace_pan_clean_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-000_resized_75.png",
+    "path": "real/id_card-000_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-000_q65.jpg",
+    "path": "real/id_card-000_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-000_q80.jpg",
+    "path": "real/id_card-000_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-000_contrast_low.jpg",
+    "path": "real/id_card-000_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-000_crop.png",
+    "path": "real/id_card-000_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-001_resized_75.png",
+    "path": "real/id_card-001_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-001_q65.jpg",
+    "path": "real/id_card-001_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-001_q80.jpg",
+    "path": "real/id_card-001_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-001_contrast_low.jpg",
+    "path": "real/id_card-001_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-001_crop.png",
+    "path": "real/id_card-001_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-002_resized_75.png",
+    "path": "real/id_card-002_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-002_q65.jpg",
+    "path": "real/id_card-002_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-002_q80.jpg",
+    "path": "real/id_card-002_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-002_contrast_low.jpg",
+    "path": "real/id_card-002_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-002_crop.png",
+    "path": "real/id_card-002_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-003_resized_75.png",
+    "path": "real/id_card-003_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-003_q65.jpg",
+    "path": "real/id_card-003_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-003_q80.jpg",
+    "path": "real/id_card-003_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-003_contrast_low.jpg",
+    "path": "real/id_card-003_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-003_crop.png",
+    "path": "real/id_card-003_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-004_resized_75.png",
+    "path": "real/id_card-004_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-004_q65.jpg",
+    "path": "real/id_card-004_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-004_q80.jpg",
+    "path": "real/id_card-004_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-004_contrast_low.jpg",
+    "path": "real/id_card-004_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-004_crop.png",
+    "path": "real/id_card-004_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-005_resized_75.png",
+    "path": "real/id_card-005_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-005_q65.jpg",
+    "path": "real/id_card-005_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-005_q80.jpg",
+    "path": "real/id_card-005_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-005_contrast_low.jpg",
+    "path": "real/id_card-005_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-005_crop.png",
+    "path": "real/id_card-005_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-006_resized_75.png",
+    "path": "real/id_card-006_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-006_q65.jpg",
+    "path": "real/id_card-006_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-006_q80.jpg",
+    "path": "real/id_card-006_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-006_contrast_low.jpg",
+    "path": "real/id_card-006_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-006_crop.png",
+    "path": "real/id_card-006_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-007_resized_75.png",
+    "path": "real/id_card-007_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-007_q65.jpg",
+    "path": "real/id_card-007_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-007_q80.jpg",
+    "path": "real/id_card-007_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-007_contrast_low.jpg",
+    "path": "real/id_card-007_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-007_crop.png",
+    "path": "real/id_card-007_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-008_resized_75.png",
+    "path": "real/id_card-008_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-008_q65.jpg",
+    "path": "real/id_card-008_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-008_q80.jpg",
+    "path": "real/id_card-008_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-008_contrast_low.jpg",
+    "path": "real/id_card-008_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-008_crop.png",
+    "path": "real/id_card-008_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-009_resized_75.png",
+    "path": "real/id_card-009_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-009_q65.jpg",
+    "path": "real/id_card-009_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-009_q80.jpg",
+    "path": "real/id_card-009_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-009_contrast_low.jpg",
+    "path": "real/id_card-009_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-009_crop.png",
+    "path": "real/id_card-009_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-010_resized_75.png",
+    "path": "real/id_card-010_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-010_q65.jpg",
+    "path": "real/id_card-010_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-010_q80.jpg",
+    "path": "real/id_card-010_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-010_contrast_low.jpg",
+    "path": "real/id_card-010_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-010_crop.png",
+    "path": "real/id_card-010_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-011_resized_75.png",
+    "path": "real/id_card-011_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-011_q65.jpg",
+    "path": "real/id_card-011_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-011_q80.jpg",
+    "path": "real/id_card-011_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-011_contrast_low.jpg",
+    "path": "real/id_card-011_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-011_crop.png",
+    "path": "real/id_card-011_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-012_resized_75.png",
+    "path": "real/id_card-012_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-012_q65.jpg",
+    "path": "real/id_card-012_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-012_q80.jpg",
+    "path": "real/id_card-012_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-012_contrast_low.jpg",
+    "path": "real/id_card-012_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-012_crop.png",
+    "path": "real/id_card-012_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-013_resized_75.png",
+    "path": "real/id_card-013_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-013_q65.jpg",
+    "path": "real/id_card-013_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-013_q80.jpg",
+    "path": "real/id_card-013_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-013_contrast_low.jpg",
+    "path": "real/id_card-013_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-013_crop.png",
+    "path": "real/id_card-013_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-014_resized_75.png",
+    "path": "real/id_card-014_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-014_q65.jpg",
+    "path": "real/id_card-014_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-014_q80.jpg",
+    "path": "real/id_card-014_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-014_contrast_low.jpg",
+    "path": "real/id_card-014_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-014_crop.png",
+    "path": "real/id_card-014_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-015_resized_75.png",
+    "path": "real/id_card-015_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-015_q65.jpg",
+    "path": "real/id_card-015_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-015_q80.jpg",
+    "path": "real/id_card-015_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-015_contrast_low.jpg",
+    "path": "real/id_card-015_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-015_crop.png",
+    "path": "real/id_card-015_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-016_resized_75.png",
+    "path": "real/id_card-016_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-016_q65.jpg",
+    "path": "real/id_card-016_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-016_q80.jpg",
+    "path": "real/id_card-016_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-016_contrast_low.jpg",
+    "path": "real/id_card-016_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-016_crop.png",
+    "path": "real/id_card-016_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-017_resized_75.png",
+    "path": "real/id_card-017_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-017_q65.jpg",
+    "path": "real/id_card-017_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-017_q80.jpg",
+    "path": "real/id_card-017_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-017_contrast_low.jpg",
+    "path": "real/id_card-017_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-017_crop.png",
+    "path": "real/id_card-017_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-018_resized_75.png",
+    "path": "real/id_card-018_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-018_q65.jpg",
+    "path": "real/id_card-018_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-018_q80.jpg",
+    "path": "real/id_card-018_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-018_contrast_low.jpg",
+    "path": "real/id_card-018_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-018_crop.png",
+    "path": "real/id_card-018_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "id_card-019_resized_75.png",
+    "path": "real/id_card-019_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "id_card-019_q65.jpg",
+    "path": "real/id_card-019_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "id_card-019_q80.jpg",
+    "path": "real/id_card-019_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "id_card-019_contrast_low.jpg",
+    "path": "real/id_card-019_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "id_card-019_crop.png",
+    "path": "real/id_card-019_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "idp-000_resized_75.png",
+    "path": "real/idp-000_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "idp-000_q65.jpg",
+    "path": "real/idp-000_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "idp-000_q80.jpg",
+    "path": "real/idp-000_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "idp-000_contrast_low.jpg",
+    "path": "real/idp-000_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "idp-000_crop.png",
+    "path": "real/idp-000_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "idp-001_resized_75.png",
+    "path": "real/idp-001_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "idp-001_q65.jpg",
+    "path": "real/idp-001_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "idp-001_q80.jpg",
+    "path": "real/idp-001_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "idp-001_contrast_low.jpg",
+    "path": "real/idp-001_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "idp-001_crop.png",
+    "path": "real/idp-001_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "idp-002_resized_75.png",
+    "path": "real/idp-002_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "idp-002_q65.jpg",
+    "path": "real/idp-002_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "idp-002_q80.jpg",
+    "path": "real/idp-002_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "idp-002_contrast_low.jpg",
+    "path": "real/idp-002_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "idp-002_crop.png",
+    "path": "real/idp-002_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "idp-003_resized_75.png",
+    "path": "real/idp-003_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "idp-003_q65.jpg",
+    "path": "real/idp-003_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "idp-003_q80.jpg",
+    "path": "real/idp-003_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "idp-003_contrast_low.jpg",
+    "path": "real/idp-003_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "idp-003_crop.png",
+    "path": "real/idp-003_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "idp-004_resized_75.png",
+    "path": "real/idp-004_resized_75.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "resize_75"
+  },
+  {
+    "filename": "idp-004_q65.jpg",
+    "path": "real/idp-004_q65.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "jpeg_q65"
+  },
+  {
+    "filename": "idp-004_q80.jpg",
+    "path": "real/idp-004_q80.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "jpeg_q80"
+  },
+  {
+    "filename": "idp-004_contrast_low.jpg",
+    "path": "real/idp-004_contrast_low.jpg",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "contrast_low"
+  },
+  {
+    "filename": "idp-004_crop.png",
+    "path": "real/idp-004_crop.png",
+    "label": 0,
+    "label_name": "genuine",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "crop"
+  },
+  {
+    "filename": "ai_generated_aadhaar_rohit.png",
+    "path": "ai/ai_generated_aadhaar_rohit.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "ai_generated_aadhaar_rohit",
+    "category": "aadhaar",
+    "condition": "true_ai_exhibit"
+  },
+  {
+    "filename": "gemini_generated_vertical_farm.jpg",
+    "path": "ai/gemini_generated_vertical_farm.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "gemini_generated_vertical_farm",
+    "category": "general_document",
+    "condition": "true_ai_exhibit"
+  },
+  {
+    "filename": "synth_eaadhaar_niranjan_genuine.png",
+    "path": "ai/synth_eaadhaar_niranjan_genuine.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_eaadhaar_niranjan_genuine_q80.jpg",
+    "path": "ai/synth_eaadhaar_niranjan_genuine_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_eaadhaar_niranjan_genuine_resized_75.png",
+    "path": "ai/synth_eaadhaar_niranjan_genuine_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "eaadhaar_niranjan_genuine",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_genuine_bill_coffee.png",
+    "path": "ai/synth_genuine_bill_coffee.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_genuine_bill_coffee_q80.jpg",
+    "path": "ai/synth_genuine_bill_coffee_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_genuine_bill_coffee_resized_75.png",
+    "path": "ai/synth_genuine_bill_coffee_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_bill_coffee",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_genuine_certificate_sample.png",
+    "path": "ai/synth_genuine_certificate_sample.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_genuine_certificate_sample_q80.jpg",
+    "path": "ai/synth_genuine_certificate_sample_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_genuine_certificate_sample_resized_75.png",
+    "path": "ai/synth_genuine_certificate_sample_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_certificate_sample",
+    "category": "certificate",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_genuine_invoice_kristiania.png",
+    "path": "ai/synth_genuine_invoice_kristiania.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_genuine_invoice_kristiania_q80.jpg",
+    "path": "ai/synth_genuine_invoice_kristiania_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_genuine_invoice_kristiania_resized_75.png",
+    "path": "ai/synth_genuine_invoice_kristiania_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_invoice_kristiania",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_genuine_mobile_photo.png",
+    "path": "ai/synth_genuine_mobile_photo.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_genuine_mobile_photo_q80.jpg",
+    "path": "ai/synth_genuine_mobile_photo_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_genuine_mobile_photo_resized_75.png",
+    "path": "ai/synth_genuine_mobile_photo_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_mobile_photo",
+    "category": "general_document",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_genuine_receipt_swiss.png",
+    "path": "ai/synth_genuine_receipt_swiss.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_genuine_receipt_swiss_q80.jpg",
+    "path": "ai/synth_genuine_receipt_swiss_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_genuine_receipt_swiss_resized_75.png",
+    "path": "ai/synth_genuine_receipt_swiss_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "genuine_receipt_swiss",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_pan_roshani_genuine.png",
+    "path": "ai/synth_pan_roshani_genuine.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_pan_roshani_genuine_q80.jpg",
+    "path": "ai/synth_pan_roshani_genuine_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_pan_roshani_genuine_resized_75.png",
+    "path": "ai/synth_pan_roshani_genuine_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_roshani_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_pan_yash_genuine.png",
+    "path": "ai/synth_pan_yash_genuine.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_pan_yash_genuine_q80.jpg",
+    "path": "ai/synth_pan_yash_genuine_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_pan_yash_genuine_resized_75.png",
+    "path": "ai/synth_pan_yash_genuine_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "pan_yash_genuine",
+    "category": "pan",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_student_id_rane_genuine.png",
+    "path": "ai/synth_student_id_rane_genuine.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_student_id_rane_genuine_q80.jpg",
+    "path": "ai/synth_student_id_rane_genuine_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_student_id_rane_genuine_resized_75.png",
+    "path": "ai/synth_student_id_rane_genuine_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "student_id_rane_genuine",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_workspace_aadhaar_clean.png",
+    "path": "ai/synth_workspace_aadhaar_clean.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_workspace_aadhaar_clean_q80.jpg",
+    "path": "ai/synth_workspace_aadhaar_clean_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_workspace_aadhaar_clean_resized_75.png",
+    "path": "ai/synth_workspace_aadhaar_clean_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_aadhaar_clean",
+    "category": "aadhaar",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_workspace_invoice_clean.png",
+    "path": "ai/synth_workspace_invoice_clean.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_workspace_invoice_clean_q80.jpg",
+    "path": "ai/synth_workspace_invoice_clean_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_workspace_invoice_clean_resized_75.png",
+    "path": "ai/synth_workspace_invoice_clean_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_invoice_clean",
+    "category": "invoice_receipt",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_workspace_marksheet_clean.png",
+    "path": "ai/synth_workspace_marksheet_clean.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_workspace_marksheet_clean_q80.jpg",
+    "path": "ai/synth_workspace_marksheet_clean_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_workspace_marksheet_clean_resized_75.png",
+    "path": "ai/synth_workspace_marksheet_clean_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_marksheet_clean",
+    "category": "marksheet",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_workspace_pan_clean.png",
+    "path": "ai/synth_workspace_pan_clean.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_workspace_pan_clean_q80.jpg",
+    "path": "ai/synth_workspace_pan_clean_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_workspace_pan_clean_resized_75.png",
+    "path": "ai/synth_workspace_pan_clean_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "workspace_pan_clean",
+    "category": "pan",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-000.png",
+    "path": "ai/synth_id_card-000.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-000_q80.jpg",
+    "path": "ai/synth_id_card-000_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-000_resized_75.png",
+    "path": "ai/synth_id_card-000_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-001.png",
+    "path": "ai/synth_id_card-001.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-001_q80.jpg",
+    "path": "ai/synth_id_card-001_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-001_resized_75.png",
+    "path": "ai/synth_id_card-001_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-002.png",
+    "path": "ai/synth_id_card-002.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-002_q80.jpg",
+    "path": "ai/synth_id_card-002_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-002_resized_75.png",
+    "path": "ai/synth_id_card-002_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-003.png",
+    "path": "ai/synth_id_card-003.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-003_q80.jpg",
+    "path": "ai/synth_id_card-003_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-003_resized_75.png",
+    "path": "ai/synth_id_card-003_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-004.png",
+    "path": "ai/synth_id_card-004.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-004_q80.jpg",
+    "path": "ai/synth_id_card-004_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-004_resized_75.png",
+    "path": "ai/synth_id_card-004_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-005.png",
+    "path": "ai/synth_id_card-005.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-005_q80.jpg",
+    "path": "ai/synth_id_card-005_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-005_resized_75.png",
+    "path": "ai/synth_id_card-005_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-005",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-006.png",
+    "path": "ai/synth_id_card-006.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-006_q80.jpg",
+    "path": "ai/synth_id_card-006_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-006_resized_75.png",
+    "path": "ai/synth_id_card-006_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-006",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-007.png",
+    "path": "ai/synth_id_card-007.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-007_q80.jpg",
+    "path": "ai/synth_id_card-007_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-007_resized_75.png",
+    "path": "ai/synth_id_card-007_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-007",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-008.png",
+    "path": "ai/synth_id_card-008.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-008_q80.jpg",
+    "path": "ai/synth_id_card-008_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-008_resized_75.png",
+    "path": "ai/synth_id_card-008_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-008",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-009.png",
+    "path": "ai/synth_id_card-009.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-009_q80.jpg",
+    "path": "ai/synth_id_card-009_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-009_resized_75.png",
+    "path": "ai/synth_id_card-009_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-009",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-010.png",
+    "path": "ai/synth_id_card-010.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-010_q80.jpg",
+    "path": "ai/synth_id_card-010_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-010_resized_75.png",
+    "path": "ai/synth_id_card-010_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-010",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-011.png",
+    "path": "ai/synth_id_card-011.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-011_q80.jpg",
+    "path": "ai/synth_id_card-011_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-011_resized_75.png",
+    "path": "ai/synth_id_card-011_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-011",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-012.png",
+    "path": "ai/synth_id_card-012.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-012_q80.jpg",
+    "path": "ai/synth_id_card-012_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-012_resized_75.png",
+    "path": "ai/synth_id_card-012_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-012",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-013.png",
+    "path": "ai/synth_id_card-013.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-013_q80.jpg",
+    "path": "ai/synth_id_card-013_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-013_resized_75.png",
+    "path": "ai/synth_id_card-013_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-013",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-014.png",
+    "path": "ai/synth_id_card-014.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-014_q80.jpg",
+    "path": "ai/synth_id_card-014_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-014_resized_75.png",
+    "path": "ai/synth_id_card-014_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-014",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-015.png",
+    "path": "ai/synth_id_card-015.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-015_q80.jpg",
+    "path": "ai/synth_id_card-015_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-015_resized_75.png",
+    "path": "ai/synth_id_card-015_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-015",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-016.png",
+    "path": "ai/synth_id_card-016.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-016_q80.jpg",
+    "path": "ai/synth_id_card-016_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-016_resized_75.png",
+    "path": "ai/synth_id_card-016_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-016",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-017.png",
+    "path": "ai/synth_id_card-017.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-017_q80.jpg",
+    "path": "ai/synth_id_card-017_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-017_resized_75.png",
+    "path": "ai/synth_id_card-017_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-017",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-018.png",
+    "path": "ai/synth_id_card-018.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-018_q80.jpg",
+    "path": "ai/synth_id_card-018_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-018_resized_75.png",
+    "path": "ai/synth_id_card-018_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-018",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_id_card-019.png",
+    "path": "ai/synth_id_card-019.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_id_card-019_q80.jpg",
+    "path": "ai/synth_id_card-019_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_id_card-019_resized_75.png",
+    "path": "ai/synth_id_card-019_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "id_card-019",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_idp-000.png",
+    "path": "ai/synth_idp-000.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_idp-000_q80.jpg",
+    "path": "ai/synth_idp-000_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_idp-000_resized_75.png",
+    "path": "ai/synth_idp-000_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-000",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_idp-001.png",
+    "path": "ai/synth_idp-001.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_idp-001_q80.jpg",
+    "path": "ai/synth_idp-001_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_idp-001_resized_75.png",
+    "path": "ai/synth_idp-001_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-001",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_idp-002.png",
+    "path": "ai/synth_idp-002.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_idp-002_q80.jpg",
+    "path": "ai/synth_idp-002_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_idp-002_resized_75.png",
+    "path": "ai/synth_idp-002_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-002",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_idp-003.png",
+    "path": "ai/synth_idp-003.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_idp-003_q80.jpg",
+    "path": "ai/synth_idp-003_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_idp-003_resized_75.png",
+    "path": "ai/synth_idp-003_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-003",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  },
+  {
+    "filename": "synth_idp-004.png",
+    "path": "ai/synth_idp-004.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_png"
+  },
+  {
+    "filename": "synth_idp-004_q80.jpg",
+    "path": "ai/synth_idp-004_q80.jpg",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_q80"
+  },
+  {
+    "filename": "synth_idp-004_resized_75.png",
+    "path": "ai/synth_idp-004_resized_75.png",
+    "label": 1,
+    "label_name": "ai_generated",
+    "source_id": "idp-004",
+    "category": "identity_card",
+    "condition": "synth_diffusion_resized"
+  }
+]

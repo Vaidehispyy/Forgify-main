@@ -13,9 +13,9 @@
     "f1": 0.0,
     "fpr": 0.0,
     "fnr": 1.0,
-    "rocAuc": 0.51,
+    "rocAuc": 0.4833,
     "meanIoU": 0.1648,
-    "avgInferenceTimeSec": 0.452
+    "avgInferenceTimeSec": 0.486
   },
   "reference_assisted": {
     "mode": "reference_assisted",
@@ -33,15 +33,15 @@
     "fnr": 0.0,
     "rocAuc": 1.0,
     "meanIoU": 0.3051,
-    "avgInferenceTimeSec": 0.763
+    "avgInferenceTimeSec": 0.8
   },
   "fixtures": {
     "invoice_clean.jpg": {
       "expected": "genuine",
-      "riskScore": 20,
+      "riskScore": 19,
       "verdict": "authentic",
       "semanticScore": 0.0,
-      "aigcScore": 0.0438,
+      "aigcScore": 0.0302,
       "alerts": [],
       "isCorrect": true
     },
@@ -50,7 +50,7 @@
       "riskScore": 74,
       "verdict": "likely-forged",
       "semanticScore": 0.798,
-      "aigcScore": 0.0438,
+      "aigcScore": 0.0308,
       "alerts": [
         "SEM-ARITH"
       ],
@@ -61,7 +61,7 @@
       "riskScore": 19,
       "verdict": "authentic",
       "semanticScore": 0.0,
-      "aigcScore": 0.0403,
+      "aigcScore": 0.02,
       "alerts": [],
       "isCorrect": true
     },
@@ -70,7 +70,7 @@
       "riskScore": 74,
       "verdict": "likely-forged",
       "semanticScore": 0.765,
-      "aigcScore": 0.0403,
+      "aigcScore": 0.02,
       "alerts": [
         "SEM-ARITH"
       ],
@@ -81,7 +81,7 @@
       "riskScore": 16,
       "verdict": "authentic",
       "semanticScore": 0.0,
-      "aigcScore": 0.0329,
+      "aigcScore": 0.0383,
       "alerts": [],
       "isCorrect": true
     },
@@ -90,7 +90,7 @@
       "riskScore": 72,
       "verdict": "likely-forged",
       "semanticScore": 0.0,
-      "aigcScore": 0.0329,
+      "aigcScore": 0.0385,
       "alerts": [
         "ID-MISMATCH"
       ],
@@ -98,10 +98,10 @@
     },
     "pan_clean.jpg": {
       "expected": "genuine",
-      "riskScore": 18,
+      "riskScore": 17,
       "verdict": "authentic",
       "semanticScore": 0.0,
-      "aigcScore": 0.0453,
+      "aigcScore": 0.0282,
       "alerts": [],
       "isCorrect": true
     },
@@ -110,7 +110,7 @@
       "riskScore": 72,
       "verdict": "likely-forged",
       "semanticScore": 0.0,
-      "aigcScore": 0.046,
+      "aigcScore": 0.0317,
       "alerts": [
         "PAN-SYNTAX"
       ],
