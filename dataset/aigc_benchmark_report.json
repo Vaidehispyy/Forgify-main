@@ -1,0 +1,197 @@
+{
+  "benchmark": "Forgify AIGC Synthetic Document Benchmark",
+  "sampleCount": 16,
+  "realCount": 8,
+  "aiCount": 8,
+  "confusionMatrix": {
+    "tp": 8,
+    "tn": 8,
+    "fp": 0,
+    "fn": 0
+  },
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "fpr": 0.0,
+  "fnr": 0.0,
+  "rocAuc": 1.0,
+  "cases": [
+    {
+      "case": "genuine_aadhaar",
+      "filename": "workspace_aadhaar_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.104,
+      "aigc_status": "pass",
+      "fused_risk": 17,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "genuine_pan",
+      "filename": "workspace_pan_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.3368,
+      "aigc_status": "review",
+      "fused_risk": 22,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "genuine_invoice",
+      "filename": "workspace_invoice_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.0896,
+      "aigc_status": "pass",
+      "fused_risk": 20,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "genuine_marksheet",
+      "filename": "workspace_marksheet_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.1139,
+      "aigc_status": "pass",
+      "fused_risk": 20,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "genuine_certificate",
+      "filename": "genuine_certificate_sample.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.2262,
+      "aigc_status": "pass",
+      "fused_risk": 27,
+      "verdict": "low-risk",
+      "correct": true
+    },
+    {
+      "case": "genuine_bill",
+      "filename": "genuine_bill_coffee.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.2279,
+      "aigc_status": "pass",
+      "fused_risk": 29,
+      "verdict": "low-risk",
+      "correct": true
+    },
+    {
+      "case": "clean_aadhaar_fixture",
+      "filename": "aadhaar_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.104,
+      "aigc_status": "pass",
+      "fused_risk": 17,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "clean_pan_fixture",
+      "filename": "pan_clean.jpg",
+      "expected_ai": false,
+      "predicted_ai": false,
+      "aigc_score": 0.3368,
+      "aigc_status": "review",
+      "fused_risk": 22,
+      "verdict": "authentic",
+      "correct": true
+    },
+    {
+      "case": "ai_aadhaar_card",
+      "filename": "ai_generated_aadhaar_rohit.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.8261,
+      "aigc_status": "alert",
+      "fused_risk": 83,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "gemini_ai_exhibit",
+      "filename": "gemini_generated_vertical_farm.jpg",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.6966,
+      "aigc_status": "alert",
+      "fused_risk": 70,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "synth_aadhaar_diffusion",
+      "filename": "synth_aadhaar_clean.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.7438,
+      "aigc_status": "alert",
+      "fused_risk": 74,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "synth_pan_diffusion",
+      "filename": "synth_pan_clean.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.8813,
+      "aigc_status": "alert",
+      "fused_risk": 88,
+      "verdict": "forged",
+      "correct": true
+    },
+    {
+      "case": "synth_invoice_diffusion",
+      "filename": "synth_invoice_clean.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.7829,
+      "aigc_status": "alert",
+      "fused_risk": 78,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "synth_marksheet_diffusion",
+      "filename": "synth_marksheet_clean.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.7555,
+      "aigc_status": "alert",
+      "fused_risk": 76,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "synth_bill_diffusion",
+      "filename": "synth_genuine_bill_coffee.png",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.5835,
+      "aigc_status": "alert",
+      "fused_risk": 68,
+      "verdict": "likely-forged",
+      "correct": true
+    },
+    {
+      "case": "synth_aadhaar_compressed",
+      "filename": "synth_aadhaar_clean_q80.jpg",
+      "expected_ai": true,
+      "predicted_ai": true,
+      "aigc_score": 0.5811,
+      "aigc_status": "alert",
+      "fused_risk": 68,
+      "verdict": "likely-forged",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "reference_free": {
+    "mode": "reference_free",
+    "sampleCount": 25,
+    "confusionMatrix": {
+      "tp": 0,
+      "tn": 10,
+      "fp": 0,
+      "fn": 15
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "fpr": 0.0,
+    "fnr": 1.0,
+    "rocAuc": 0.51,
+    "meanIoU": 0.1648,
+    "avgInferenceTimeSec": 0.452
+  },
+  "reference_assisted": {
+    "mode": "reference_assisted",
+    "sampleCount": 25,
+    "confusionMatrix": {
+      "tp": 15,
+      "tn": 10,
+      "fp": 0,
+      "fn": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fpr": 0.0,
+    "fnr": 0.0,
+    "rocAuc": 1.0,
+    "meanIoU": 0.3051,
+    "avgInferenceTimeSec": 0.763
+  },
+  "fixtures": {
+    "invoice_clean.jpg": {
+      "expected": "genuine",
+      "riskScore": 20,
+      "verdict": "authentic",
+      "semanticScore": 0.0,
+      "aigcScore": 0.0438,
+      "alerts": [],
+      "isCorrect": true
+    },
+    "invoice_tampered.jpg": {
+      "expected": "manipulated",
+      "riskScore": 74,
+      "verdict": "likely-forged",
+      "semanticScore": 0.798,
+      "aigcScore": 0.0438,
+      "alerts": [
+        "SEM-ARITH"
+      ],
+      "isCorrect": true
+    },
+    "marksheet_clean.jpg": {
+      "expected": "genuine",
+      "riskScore": 19,
+      "verdict": "authentic",
+      "semanticScore": 0.0,
+      "aigcScore": 0.0403,
+      "alerts": [],
+      "isCorrect": true
+    },
+    "marksheet_tampered.jpg": {
+      "expected": "manipulated",
+      "riskScore": 74,
+      "verdict": "likely-forged",
+      "semanticScore": 0.765,
+      "aigcScore": 0.0403,
+      "alerts": [
+        "SEM-ARITH"
+      ],
+      "isCorrect": true
+    },
+    "aadhaar_clean.jpg": {
+      "expected": "genuine",
+      "riskScore": 16,
+      "verdict": "authentic",
+      "semanticScore": 0.0,
+      "aigcScore": 0.0329,
+      "alerts": [],
+      "isCorrect": true
+    },
+    "aadhaar_tampered.jpg": {
+      "expected": "manipulated",
+      "riskScore": 72,
+      "verdict": "likely-forged",
+      "semanticScore": 0.0,
+      "aigcScore": 0.0329,
+      "alerts": [
+        "ID-MISMATCH"
+      ],
+      "isCorrect": true
+    },
+    "pan_clean.jpg": {
+      "expected": "genuine",
+      "riskScore": 18,
+      "verdict": "authentic",
+      "semanticScore": 0.0,
+      "aigcScore": 0.0453,
+      "alerts": [],
+      "isCorrect": true
+    },
+    "pan_tampered.jpg": {
+      "expected": "manipulated",
+      "riskScore": 72,
+      "verdict": "likely-forged",
+      "semanticScore": 0.0,
+      "aigcScore": 0.046,
+      "alerts": [
+        "PAN-SYNTAX"
+      ],
+      "isCorrect": true
+    }
+  }
+}
