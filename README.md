@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Forgify — AI Digital Forensics & Document Tampering Detection Platform
 
 <div align="center">
@@ -341,3 +342,7 @@ PYTHONPATH=. .venv/bin/python app/forensics/train_aigc.py
 ## 📄 License
 
 Proprietary digital forensic software. Developed for evidence-grade document authentication, tamper discovery, and forensic analysis.
+=======
+# Forgify-main
+AI-powered image and document forgery detection using digital forensics and machine learning.
+>>>>>>> f36175a11e407963245cc2e493aca07321622fae
